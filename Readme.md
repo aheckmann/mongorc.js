@@ -8,6 +8,7 @@ Provides:
 
   - `pretty()` queries by default
   - `ugly()` helper
+  - prompt that displays current db name
 
 ## Pretty
 

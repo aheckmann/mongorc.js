@@ -1,4 +1,9 @@
 
+0.0.3 / 2012-11-09
+==================
+
+  * prompt displays info relative to server type
+
 0.0.2 / 2012-11-06
 ==================
 

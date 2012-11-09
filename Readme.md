@@ -8,7 +8,7 @@ Provides:
 
   - `pretty()` queries by default
   - `ugly()` helper
-  - prompt that displays current db name
+  - prompt that displays info relative to server type
 
 ## Pretty
 
@@ -43,6 +43,27 @@ Now that we get pretty result sets by default, we may still occasionally desire 
     { "_id" : ObjectId("5073347b9c25fa3b6e62174e"), "name" : "Super Mario Bros 2", "super" : true, "release" : ISODate("1988-10-09T07:00:00Z") }
     { "_id" : ObjectId("5073348f9c25fa3b6e62174f"), "name" : "Super Mario Bros 3", "super" : true, "release" : ISODate("1990-02-09T08:00:00Z") }
 
+## Prompt
+
+The default prompt now displays information related to the connected server.
+
+####replSet
+
+```
+replSetName:ServerState|database>
+```
+
+####mongos
+
+```
+mongos|host:port|database>
+```
+
+####mongod
+
+```
+mongod|host:port|database>
+```
 
 ## Installation
 
